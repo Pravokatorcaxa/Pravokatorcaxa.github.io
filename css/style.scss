@@ -1,0 +1,794 @@
+.indent 
+	padding: 0 10% 0 10% 
+.border 
+	background-color: #1abc9c 
+	width: 165px 
+	height: 4px 
+	margin: 2px 
+	&:nth-child(2) 
+		width: 165px 
+		height: 10px 
+.conteiner 
+	max-width: 1500px 
+body 
+	margin: 0px 
+	padding: 0px 
+	display: -webkit-flex 
+	display: flex 
+	align-content: center 
+	align-items: center 
+	justify-content: center 
+.header 
+	display: -webkit-flex 
+	margin-left: auto 
+	margin-right: 20px 
+	align-items: center 
+	flex-wrap: wrap 
+	a 
+		color: #ffffff 
+		&:hover 
+			color: #196655 
+			text-decoration: none 
+	li 
+		display: inline-block 
+		padding: 20px 0 0 10px 
+.main 
+	background-color: #1abc9c 
+	display: -webkit-flex 
+	align-content: center 
+	align-items: center 
+	flex-wrap: wrap 
+.contact 
+	display: -webkit-flex 
+	align-content: center 
+	align-items: center 
+	flex-wrap: wrap 
+	a 
+		text-decoration: none 
+		padding: 5px  10px 10px 5px 
+		color: #ffffff 
+		&:hover 
+			color: #196655 
+			text-decoration: none 
+.footer 
+	display: -webkit-flex 
+	display: flex 
+	text-transform: uppercase 
+	text-align: center 
+	margin: 20px 
+	flex-wrap: wrap 
+	flex-direction: row 
+	justify-content: center 
+	a 
+		text-decoration: none 
+		color: black 
+		&:hover 
+			color: #1abc9c 
+			text-decoration: none 
+.logo 
+	margin-right: auto 
+	font-size: 30px 
+	margin-top: 0px 
+	&::first-letter 
+		color: #4cbca3 
+		font-weight: 800 
+.navigation 
+	li 
+		display: inline-block 
+		padding-left: auto 
+		font-weight: bold 
+		margin-top: 10px 
+.busket 
+	margin-left: auto 
+	margin-top: 10px 
+	margin-right: 10% 
+.carusel 
+	a 
+		background-color: #509d8b 
+		height: 100px 
+		width: 100px 
+		margin-top: 15% 
+		&:hover 
+			opacity: 1 
+.carousel-item 
+	img 
+		-webkit-filter: brightness(0.4) 
+.carousel-inner 
+	position: relative 
+.info__carusel 
+	position: absolute 
+	left: 25% 
+	top: 25% 
+	color: white 
+	text-align: center 
+	font-size: 3rem 
+	.btn__corusel 
+		width: 120px 
+		height: 40px 
+		margin: 0 
+		color: white 
+		background-color: rgba(0, 0, 0, 0) 
+		border-radius: 0 
+		border: 2px solid #1abc9c 
+		text-transform: uppercase 
+		&:hover 
+			color: rgb(230, 210, 210) 
+			border: 2px solid #456d65 
+	span 
+		&:nth-child(2) 
+			color: #1abc9c 
+		&:nth-child(6) 
+			color: #1abc9c 
+.info 
+	display: -webkit-flex 
+	align-content: center 
+	align-items: center 
+	margin-top: 5% 
+	flex-direction: row 
+	flex-wrap: wrap 
+	margin-bottom: 50px 
+.item 
+	display: -webkit-flex 
+	display: flex 
+	align-items: center 
+	align-content: center 
+	flex-direction: column 
+	text-align: center 
+	font-size: 14px 
+	margin-right: auto 
+	margin-left: auto 
+	width: 260px 
+	padding-top: 50px 
+	h6 
+		text-transform: uppercase 
+		padding: 55px 0 30px 
+		font-weight: bold 
+	a 
+		text-decoration: none 
+		font-weight: bold 
+		color: black 
+		&:hover 
+			color: #39c5a9 
+			text-decoration: none 
+.transclass 
+	transition: width 0.5s linear 0s 
+	&:hover 
+		width: 300px 
+		-webkit-box-shadow: 0px 0px 50px 30px #79a94b 
+		-moz-box-shadow: 0px 0px 50px 30px #79a94b 
+		box-shadow: 0px 0px 50px 30px #79a94b 
+.bacground__setigs 
+	background-image: url(https://img.icons8.com/ios/80/000000/settings.png) 
+	width: 80px 
+	height: 80px 
+	background-color: rgb(255, 255, 255) 
+	&:hover 
+		background-color: rgb(255, 255, 255) 
+		background-image: url(setting.png) 
+		a 
+			color: #323232 
+.bacground__money 
+	background-image: url(https://img.icons8.com/ios/80/000000/safe.png) 
+	width: 80px 
+	height: 80px 
+	background-color: rgb(255, 255, 255) 
+	&:hover 
+		background-color: rgb(255, 255, 255) 
+		background-image: url(bank.png) 
+.bacground__worldwide__first 
+	background-image: url(https://img.icons8.com/ios/80/000000/globe.png) 
+	width: 80px 
+	height: 80px 
+	background-color: rgb(255, 255, 255) 
+	&:hover 
+		background-color: rgb(255, 255, 255) 
+		background-image: url(shar.png) 
+.bacground__worldwide__second 
+	background-image: url(https://img.icons8.com/ios/80/000000/compass.png) 
+	width: 80px 
+	height: 80px 
+	background-color: rgb(255, 255, 255) 
+	&:hover 
+		background-color: rgb(255, 255, 255) 
+		background-image: url(compas.png) 
+.newcolection 
+	margin: 100px 0 50px 
+	padding-top: 50px 
+	background-color: #e9f0fd 
+	padding-bottom: 50px 
+.conteiner__produckt 
+	text-align: center 
+	align-items: center 
+	align-content: center 
+	background-color: #e9f0fd 
+	margin-left: 5% 
+	margin-top: 100px 
+	justify-content: center 
+.heading 
+	text-align: center 
+	font-weight: bold 
+	font-size: 48px 
+	text-transform: uppercase 
+	color: #515151 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: column 
+	align-content: center 
+	align-items: center 
+	h3 
+		color: #515151 
+		font-size: 48px 
+		font-weight: bold 
+.produckt__newcolection 
+	display: -webkit-flex 
+	flex-direction: row 
+	flex-wrap: wrap 
+	background-color: #e9f0fd 
+	align-items: center 
+	align-content: center 
+	margin: auto 
+	margin-bottom: 100px 
+.card__footer 
+	display: flex 
+	flex-direction: row 
+	flex-wrap: nowrap 
+	text-transform: uppercase 
+	font-weight: bold 
+.info__prod 
+	width: 80% 
+	padding: 10px 0 10px 10px 
+	background-color: #323232 
+	z-index: 1 
+	a 
+		color: white 
+.cena__prod 
+	width: 20% 
+	background-color: #8c8c8c 
+	padding: 10px 5px 10px 10px 
+	z-index: 1 
+	a 
+		text-align: center 
+		font-weight: bold 
+		color: white 
+.card 
+	margin-right: auto 
+	margin-bottom: 10px 
+	&:hover 
+		.cena__prod 
+			text-decoration: none 
+			background-color: #7fd9c7 
+			color: white 
+			&:hover 
+				text-decoration: none 
+				background-color: #7fd9c7 
+				color: white 
+				box-shadow: inset 0 0 0 23px #49a770 
+		.info__prod 
+			text-decoration: none 
+			background-color: #1abc9c 
+			color: white 
+			&:hover 
+				text-decoration: none 
+				background-color: #1abc9c 
+				box-shadow: inset 0 0 0 23px #49a770 
+		a 
+			text-decoration: none 
+			color: white 
+			&:hover 
+				text-decoration: none 
+				color: rgb(109, 55, 109) 
+		img 
+			z-index: 0 
+		.new 
+			z-index: 0 
+			border: transparent 
+		.sale 
+			z-index: 0 
+			border: transparent 
+	img 
+		position: relative 
+		z-index: 1 
+.menu 
+	position: absolute 
+	background: #0c0b0b8c 
+	z-index: 0 
+	height: 100% 
+	max-width: 310px 
+	min-height: 65px 
+	border: 10px rgba(255, 255, 255, 0.836) solid 
+.like 
+	background-color: Transparent 
+	background-repeat: no-repeat 
+	border: none 
+	cursor: pointer 
+	overflow: hidden 
+	border: white 1px solid 
+	margin: 5px 
+	&:hover 
+		background-color: #1abc9c 
+.base 
+	background-color: Transparent 
+	background-repeat: no-repeat 
+	border: none 
+	cursor: pointer 
+	overflow: hidden 
+	border: white 1px solid 
+	margin: 5px 
+	&:hover 
+		background-color: #1abc9c 
+.time 
+	background-color: Transparent 
+	background-repeat: no-repeat 
+	border: none 
+	cursor: pointer 
+	overflow: hidden 
+	border: white 1px solid 
+	margin-right: auto 
+	&:hover 
+		background-color: #1abc9c 
+.addtocard 
+	background-color: Transparent 
+	background-repeat: no-repeat 
+	border: none 
+	cursor: pointer 
+	overflow: hidden 
+	border: white 1px solid 
+	background-color: #333333 
+	margin: 5px 
+	margin-left: 5px 
+	padding: 10px 
+	text-align: center 
+	&:hover 
+		-webkit-transform: rotateZ(10deg) 
+		-ms-transform: rotateZ(10deg) 
+		transform: rotateZ(10deg) 
+	span 
+		text-transform: uppercase 
+		color: #d6d6d6 
+		margin-left: 10px 
+		margin-right: 12px 
+	svg 
+		margin-left: 5px 
+.button__position 
+	position: relative 
+	top: 30% 
+	left: 1% 
+.featuredproducts__heading 
+	background-color: white 
+	margin-top: 50px 
+	padding-top: 10px 
+	margin-left: 50px 
+.produckt__featuredproducts 
+	display: -webkit-flex 
+	flex-direction: row 
+	flex-wrap: wrap 
+	background-color: white 
+	align-content: center 
+	align-items: center 
+	justify-content: center 
+	margin: auto 
+	.card 
+		margin-right: 20px 
+		margin-bottom: 10px 
+.card-img-top 
+	background-color: white 
+	height: 300px 
+.featuredproducts__nav 
+	text-align: center 
+	margin-bottom: 80px 
+	margin-top: 50px 
+	ul 
+		li 
+			display: inline-block 
+			div 
+				a 
+					text-decoration: none 
+					color: #555252 
+					text-transform: uppercase 
+		div 
+			background-color: white 
+			padding: 10px 20px 10px 20px 
+			margin-bottom: 100px 
+			border: 1px #959595 solid 
+			border-radius: 5% 
+			display: -webkit-flex 
+			flex-direction: row 
+			margin: 10px 
+	div 
+		&:nth-child(1) 
+			position: relative 
+	.counter 
+		position: absolute 
+		left: -10000px 
+		top: 400px 
+		border-radius: 50% 
+	li 
+		&:hover 
+			div 
+				background-color: #33cc99 
+			a 
+				color: white 
+			.counter 
+				position: absolute 
+				top: -50px 
+				left: 15px 
+				border-radius: 50% 
+				background-color: white 
+				color: #1abc9c 
+				border: #373737 sol 
+.info__featuredproducts 
+	position: relative 
+	.new 
+		position: absolute 
+		background-color: #32323200 
+		top: 12px 
+		left: 12px 
+		padding: 0 10px 
+		z-index: 3 
+		text-align: center 
+		border: 1px black solid 
+		animation: pulsing 2s infinite 
+	.sale 
+		position: absolute 
+		background-color: #32323200 
+		top: 12px 
+		right: 12px 
+		padding: 0 10px 
+		z-index: 3 
+		text-align: center 
+		border: 1px black solid 
+		animation: pulsing 2s infinite 
+	div 
+		a 
+			color: #666666 
+			text-transform: uppercase 
+@-webkit-keyframes 
+	pulsing 
+		0% {
+      -webkit-transform: scale(0.9, 0.9) 
+		transform: scale(0.9, 0.9) 
+50% 
+	-webkit-transform: scale(1.0, 1.0) 
+	transform: scale(1.0, 1.0) 
+100% 
+	-webkit-transform: scale(0.9, 0.9) 
+	transform: scale(0.9, 0.9) 
+} 
+	.endsale__bacground 
+		margin-top: 100px 
+		max-width: 1500px 
+		background-image: url(endsale.png) 
+		background-repeat: no-repeat 
+		text-align: center 
+		overflow: visible 
+		padding: 80px 0 80px 0 
+.endsale__bacground 
+	span 
+		&:nth-child(1) 
+			font-weight: bold 
+			text-transform: uppercase 
+			color: #515151 
+			font-size: 6vw 
+			color: white 
+		&:nth-child(3) 
+			text-transform: uppercase 
+			color: #515151 
+			font-size: 3vw 
+			color: gray 
+.bestsellers 
+	background-color: #e9f0fd 
+	padding: 5px 0 50px 0 
+	text-align: center 
+.produckt__bestsellers 
+	display: -webkit-flex 
+	flex-direction: row 
+	flex-wrap: wrap 
+	background-color: #e9f0fd 
+	align-items: center 
+	align-content: center 
+	margin: auto 
+	margin-bottom: 100px 
+.heading__bestsellers 
+	margin: 80px 
+	h3 
+		color: #515151 
+		font-size: 48px 
+		font-weight: bold 
+.heading__custumerreview 
+	margin: 80px 
+.custumerreview 
+	margin-bottom: 50px 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: column 
+	background-color: white 
+	align-content: center 
+	align-items: center 
+	margin-left: auto 
+	.item__custumerreview 
+		&:nth-child(2):hover 
+			border: 4px solid green 
+			border-radius: 50% 
+.cite 
+	text-align: center 
+	padding: 25px 
+.avtor 
+	display: -webkit-flex 
+	display: flex 
+	align-items: center 
+	align-content: center 
+	flex-direction: column 
+	text-align: center 
+	cite 
+		overflow: hidden 
+		&:before 
+			margin-left: -100% 
+		&:after 
+			margin-right: -100% 
+.avtor cite:before,
+  .avtor cite:after 
+	content: '' 
+	display: inline-block 
+	vertical-align: middle 
+	box-sizing: border-box 
+	width: 100% 
+	height: 3px 
+	background: #6CBD83 
+	border: solid #FFF 
+	border-width: 0 10px 
+.coment 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: row 
+	div 
+		margin: 15px 
+.stayt 
+	transition: width 0.5s linear 0s 
+	&:hover 
+		width: 80px 
+		-webkit-box-shadow: 0px 0px 50px 30px #79a94b 
+		-moz-box-shadow: 0px 0px 50px 30px #79a94b 
+		box-shadow: 0px 0px 50px 30px #79a94b 
+		border-radius: 50% 
+.newslatter 
+	background-image: url(bg2decor-full.png) 
+	padding: 50px 0 100px 0 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: column 
+	align-content: center 
+	align-items: center 
+	justify-content: center 
+	input[type="email"] 
+		width: 550px 
+		height: 60px 
+		padding: 25px 0 25px 30px 
+		border-radius: 7px 
+		position: relative 
+		left: 50px 
+	input[type="email"]:focus 
+		border: 2px solid black 
+	input[type="submit"] 
+		width: 90px 
+		height: 55px 
+		border-radius: 0 7px 7px 0 
+		background-color: #4ec6ab 
+		position: relative 
+		left: -47px 
+		top: 22px 
+		background-image: url(icons8-быстрая-перемотка-вперед-50.png) 
+		background-repeat: no-repeat 
+		text-shadow: none 
+		background-position: 20px 0px 
+.newslatter__heding 
+	margin-bottom: 50px 
+	text-align: center 
+	.border 
+		background-color: white 
+	& > span 
+		color: #ffffff 
+		font-size: 16px 
+		margin-top: 20px 
+		font-weight: normal 
+		text-align: center 
+.partner 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: row 
+	justify-content: center 
+	margin-top: 50px 
+	flex-wrap: wrap 
+	div 
+		margin-bottom: 20px 
+		margin-left: 25px 
+		opacity: 1 
+		&:hover 
+			opacity: 0.6 
+.ourpartner 
+	background-color: #e9f0fd 
+	padding: 80px 0 80px 0 
+.conteiner__latestnews__item 
+	display: -webkit-flex 
+	display: flex 
+	align-items: flex-start 
+	align-content: flex-start 
+	flex-direction: column 
+	margin-right: auto 
+	font-size: 14px 
+	margin-top: 50px 
+	margin-left: auto 
+	width: 355px 
+	img 
+		width: 300px 
+		height: 260px 
+		min-width: 200px 
+		&:hover 
+			-webkit-transform: scale(1.1) 
+			-ms-transform: scale(1.1) 
+			transform: scale(1.1) 
+	h5 
+		color: #555252 
+		font-weight: 600 
+		font-size: 16px 
+		text-align: left 
+		text-transform: none 
+		padding-top: 10px 
+		padding-left: 0px 
+	p 
+		font-size: 14px 
+		font-weight: normal 
+		text-align: left 
+		text-transform: none 
+		padding-top: 10px 
+	.btn 
+		background-color: #4ec6ab 
+		border: none 
+		padding: 10px 40px 10px 40px 
+.latestnews__heding 
+	margin-top: 100px 
+	padding-bottom: 20px 
+.conteiner__latestnews 
+	display: -webkit-flex 
+	display: flex 
+	align-items: center 
+	align-content: center 
+	flex-direction: row 
+	margin-right: auto 
+	flex-wrap: wrap 
+.conteiner__latestnews__item__border 
+	border: 1px solid #4ec6ab 
+	width: 120px 
+	position: relative 
+.btn__latestnews 
+	position: relative 
+.getintouch 
+	background-image: url(world-map.png) 
+	color: white 
+	margin-top: 80px 
+	margin-right: 0 
+	padding-right: 0 
+.conteiner__getintouch 
+	display: -webkit-flex 
+	display: flex 
+	flex-direction: row 
+	flex-wrap: wrap 
+	align-items: flex-start 
+	align-content: flex-start 
+	justify-content: center 
+.item__getintouch 
+	text-align: left 
+	width: 50% 
+	margin-right: auto 
+	min-width: 300px 
+	max-width: 800px 
+	input 
+		width: 250px 
+		height: 50px 
+		margin: 15px 
+		padding: 5px 0 5px 15px 
+		background: rgba(0, 0, 0, 0) 
+		color: white 
+	textarea 
+		width: 82% 
+		height: 120px 
+		margin: 15px 
+		padding: 5px 0 5px 15px 
+		background: rgba(0, 0, 0, 0) 
+		resize: none 
+		color: white 
+	p 
+		&:nth-child(1) 
+			font-size: 72px 
+			margin-bottom: 0 
+			padding-bottom: 0 
+		&:nth-child(1):first-letter 
+			color: #4cbca3 
+		&:nth-child(2) 
+			font-size: 14px 
+	span 
+		&:nth-child(2) 
+			font-size: 18px 
+			font-weight: 600 
+	div 
+		display: inline-block 
+		margin: 10px 5px 0 0px 
+		a 
+			&:hover 
+				background: #46bfa9ad 
+				border: 1px solid white 
+.heading__getintouch 
+	padding-top: 40px 
+	margin-bottom: 50px 
+	h3 
+		color: white 
+.inform 
+	span 
+		&:nth-child(2n 
+			& + 1) 
+				color: #4cbca3 
+				font-size: 14px 
+				font-weight: 600 
+		&:nth-child(2n) 
+			color: white 
+			font-size: 14px 
+	a 
+		text-decoration: none 
+		color: white 
+		&:hover 
+			text-decoration: none 
+			color: rgb(168, 69, 69) 
+.conteiner__getintouch__indent 
+	margin-left: 5% 
+.sharp 
+	a 
+		display: block 
+		width: 30px 
+		height: 30px 
+input 
+	&:focus 
+		border: 2px solid black 
+textarea 
+	&:focus 
+		border: 2px solid black 
+input[type="submit"] 
+	background-color: #46bfa9 
+	width: 150px 
+	height: 50px 
+	border: none 
+	padding-right: 30px 
+::-webkit-input-placeholder 
+	color: white 
+::-moz-placeholder 
+	color: white 
+:-ms-input-placeholder 
+	color: white 
+:-moz-placeholder 
+	color: white 
+footer 
+	color: white 
+	background-color: #030303 
+	text-align: center 
+	padding: 40px 
+	span 
+		&:nth-child(2) 
+			color: #389987 
+.bg-icons8_twitter_squared_30 
+	width: 30px 
+	height: 30px 
+	background: url(css_sprites.png) -10px -10px 
+.bg-icons8_instagram_30 
+	width: 30px 
+	height: 30px 
+	background: url('css_sprites.png') -60px -10px 
+.bg-icons8_facebook_30 
+	width: 30px 
+	height: 30px 
+	background: url('css_sprites.png') -10px -60px 
+.bg-icons8_codepen_filled_30 
+	width: 30px 
+	height: 30px 
+	background: url('css_sprites.png') -60px -60px 
+.bg-icons8_github_filled_30 
+	width: 30px 
+	height: 30px 
+	background: url('css_sprites.png') -110px -10px 
