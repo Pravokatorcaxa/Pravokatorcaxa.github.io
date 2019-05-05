@@ -1,1 +1,0 @@
-# Pravokatorcaxa.github.io
